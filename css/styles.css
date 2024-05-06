@@ -430,7 +430,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
@@ -452,6 +451,7 @@ p {
 }
 .subcriber-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* ============ BACKDROP STYLES ============ */
@@ -616,8 +616,8 @@ p {
 }
 .privacy-policy:checked + .privacy-policy-label .form-text-cont {
   background-color: #404bbf;
-  border: none;
   fill: #f4f4fd;
+  border: none;
 }
 .privacy-policy:focus + .privacy-policy-label .form-text-cont {
   border: 1px solid #4d5ae5;
