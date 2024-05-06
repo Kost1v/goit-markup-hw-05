@@ -454,15 +454,16 @@
         <div class="subscribe">
           <p class="subcriber-text">Subcriber</p>
           <form class="form-subscribe">
-            <label for="subcriber-input" class="subcriber-label"></label>
-            <input
-              type="email"
-              class="subcriber-input"
-              name="subcriber-input"
-              id="subcriber-input"
-              placeholder="E-mail"
-              required
-            />
+            <label for="subcriber-input" class="subcriber-label">
+              <input
+                type="email"
+                class="subcriber-input"
+                name="subcriber-input"
+                id="subcriber-input"
+                placeholder="E-mail"
+                required
+              />
+            </label>
             <button class="subcriber-button" type="button">
               Subscribe
               <svg class="subcriber-icon" width="24" height="24">
@@ -473,7 +474,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-icon-btn" type="button">
           <svg class="modal-icon-close" width="8" height="8">
@@ -528,11 +529,11 @@
             </div>
           </div>
           <div class="form-cont form-message">
-            <label for="user-comment " class="form-label">Comment</label>
+            <label for="user-comment" class="form-label">Comment</label>
             <textarea
               class="form-comment"
-              name="user-comment "
-              id="user-comment "
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               required
             ></textarea>

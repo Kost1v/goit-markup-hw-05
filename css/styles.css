@@ -400,6 +400,7 @@ p {
 }
 .form-subscribe {
   display: flex;
+  gap: 24px;
 }
 .subcriber-text {
   color: #fff;
@@ -421,7 +422,6 @@ p {
   outline: transparent;
   background-color: transparent;
   color: #fff;
-  margin-right: 24px;
 }
 .subcriber-input::placeholder {
   color: #fff;
