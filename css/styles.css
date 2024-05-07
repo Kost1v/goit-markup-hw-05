@@ -620,7 +620,6 @@ p {
   border: none;
 }
 .privacy-policy:focus + .privacy-policy-label .form-text-cont {
-  border: 1px solid #4d5ae5;
   outline: transparent;
 }
 .privacy {
